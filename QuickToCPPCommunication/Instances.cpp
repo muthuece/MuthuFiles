@@ -11,5 +11,5 @@ Instances::Instances() { testClassInstance(); }
 void Instances::testClassInstance() {
   std::shared_ptr<ConstrClass> pConstObj = std::make_shared<ConstrClass>();
 
-  qDebug() << "Address of pConstObj" << pConstObj;
+  qDebug() << "Address of pConstObj";
 }
