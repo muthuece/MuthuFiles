@@ -20,6 +20,18 @@ int main(int argc, char *argv[]) {
                    Qt::QueuedConnection);
   engine.load(url);
 
+  //  std::multimap<int, int> temp;
+  //  temp.insert(std::pair<int, int>(1, 5));
+  //  temp.insert(std::pair<int, int>(1, 5));
+  //  temp.insert(std::pair<int, int>(1, 5));
+
+  //  temp.insert(std::pair<int, int>(2, 10));
+  //  temp.insert(std::pair<int, int>(3, 15));
+
+  //  qDebug() << temp.size();
+  //  temp.erase(temp.begin());
+  //  qDebug() << temp.size();
+
   Instances instObj;
 
   return app.exec();

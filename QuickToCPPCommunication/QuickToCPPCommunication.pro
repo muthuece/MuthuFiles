@@ -9,6 +9,7 @@ CONFIG += c++11
 SOURCES += \
         ConstrClass.cpp \
         Instances.cpp \
+        MiniBytes.cpp \
         main.cpp
 
 RESOURCES += qml.qrc
@@ -26,4 +27,5 @@ else: unix:!android: target.path = /opt/$${TARGET}/bin
 
 HEADERS += \
   ConstrClass.h \
-  Instances.h
+  Instances.h \
+  MiniBytes.h
