@@ -1,4 +1,5 @@
 #include "Instances.h"
+#include "SmartPointers.h"
 
 #include <QDebug>
 #include <iostream>
@@ -15,8 +16,13 @@ ConstrClass returnInst() {
 Instances::Instances() {
   //    constrTestFunc();
 
-  miniBytesTestFunc();
+  //  miniBytesTestFunc();
+
+  SmartPointersTest();
 }
+
+void Instances::SmartPointersTest() { SmartPointers obj; }
+
 void Instances::miniBytesTestFunc() { MiniBytes m; }
 
 void Instances::constrTestFunc() {

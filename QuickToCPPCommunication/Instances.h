@@ -14,6 +14,9 @@ public:
   Instances();
 
 private:
+  // SmartPointersTest
+  void SmartPointersTest();
+
   // MiniBytes test Funcs
   void miniBytesTestFunc();
 
