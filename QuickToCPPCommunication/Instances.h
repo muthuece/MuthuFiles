@@ -27,6 +27,7 @@ private:
   void returnObj();
   void moveTest();
   void operatorTest();
+  void SortingTest();
 };
 
 #endif // INSTANCES_H

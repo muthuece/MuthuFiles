@@ -11,6 +11,7 @@ SOURCES += \
         Instances.cpp \
         MiniBytes.cpp \
         SmartPointers.cpp \
+        SortingMechanisms.cpp \
         main.cpp
 
 RESOURCES += qml.qrc
@@ -30,4 +31,5 @@ HEADERS += \
   ConstrClass.h \
   Instances.h \
   MiniBytes.h \
-  SmartPointers.h
+  SmartPointers.h \
+  SortingMechanisms.h

@@ -1,5 +1,6 @@
 #include "Instances.h"
 #include "SmartPointers.h"
+#include "SortingMechanisms.h"
 
 #include <QDebug>
 #include <iostream>
@@ -18,8 +19,12 @@ Instances::Instances() {
 
   //  miniBytesTestFunc();
 
-  SmartPointersTest();
+  //  SmartPointersTest();
+
+  SortingTest();
 }
+
+void Instances::SortingTest() { SortingMechanisms obj; }
 
 void Instances::SmartPointersTest() { SmartPointers obj; }
 
